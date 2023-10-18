@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: rgb(0, 132, 255);
+    height: 100vh;
+}
+.container>.survey-container>.survey-form{
+    background-color: #fff;
+    padding: 20px;
+    margin: 0 auto;
+    width: 500px;
+}
+.container>.survey-container>.survey-form>form>.form-first-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#submit{
+    background-color: rgb(0, 132, 255);
+    color: #fff;
+    cursor: pointer;
+    margin-left: 30px;
+    width: 100px;
+}
+#date{
+    width: 170px;
+}
+input{
+    padding: 10px;
+    border: 1px solid rgb(82, 111, 138);
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container>.survey-container>h2{
+    font-size: 35px;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
